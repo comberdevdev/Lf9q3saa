@@ -37,12 +37,12 @@ button[type="button"].navbar-toggle.second-button-toggle{
 .triangle-button{
 	color:#ffffff;
 	margin-top:-28px;
-	margin-left:125px;
+	margin-left:130px;
 }
 
 .logo-name{
 	margin-right:50px;
-	margin-left:40px;
+	margin-left:45px;
 	margin-top:-28px;
 	color:#ffffff;
 }
@@ -96,4 +96,32 @@ ul.lista-sub-itens > li.sub-item:hover{
 }
 .perfil-item{
 	list-style-type:none;
+}
+
+.menu-perfil-itens{
+	background-color:#ffffff;
+	color:#8f99aa;
+	padding:0px;
+	border:1px solid #acacbd;
+}
+li.menu-perfil-item:hover{
+	background-color:#eeeff3;
+}
+li.menu-perfil-item > a{
+	text-decoration:none;
+}
+li.menu-perfil-item{
+	list-style-type:none;
+}
+.perfil-item-primario{
+	padding:10px;
+	color:#8f99aa;
+}
+.menu-perfil-divisor{
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+.conteudo{
+	margin-top:86px;
 }

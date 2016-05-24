@@ -45,3 +45,11 @@ function config(){
 		$("#config_all").show();
 	}
 }
+
+function perfil(){
+	if($("#perfil").is(':visible')){
+		$("#perfil").hide();
+	}else{
+		$("#perfil").show();
+	}
+}
