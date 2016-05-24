@@ -7,7 +7,7 @@
                     <div class="navbar-header navbar-cabecalho">
                     	<a href="index.php">
                         	<div class="logo">
-                                <img src="images/logo/sprite.png" class="img-responsive pull-left logo-img">
+                                <img src="<?= $caminhoSite ?>/images/logo/sprite.png" class="img-responsive pull-left logo-img">
                                 <font class="logo-font">CMS</font>
                             </div>
                         </a>
@@ -20,7 +20,7 @@
                         </button>
                         
                         <button type="button" class="navbar-toggle second-button-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <img src="images/logo/logo-toggle.png" style="height:35px;">
+                            <img src="<?= $caminhoSite ?>/images/logo/logo-toggle.png" style="height:35px;">
                             <span class="glyphicon glyphicon-triangle-bottom" style="color:#fff"></span>
                         </button>
                 	</div>
@@ -43,7 +43,7 @@
                     <div class="navbar-header navbar-cabecalho">
                     	<a href="index.php">
                         	<div class="logo">
-                                <img src="images/logo/sprite.png" class="img-responsive pull-left logo-img">
+                                <img src="<?= $caminhoSite ?>/images/logo/sprite.png" class="img-responsive pull-left logo-img">
                                 <p class="logo-font">CMS</p>
                             </div>
                         </a>
@@ -53,7 +53,7 @@
                         <ul class="nav navbar-nav pull-right" style="margin-right:-9px;">
                             <li>
                             	<a href="#" onClick="perfil()">
-                                    <img src="images/logo/logo-toggle.png" style="height:35px;">
+                                    <img src="<?= $caminhoSite ?>/images/logo/logo-toggle.png" style="height:35px;">
                                     <p class="logo-name">ComberWeb</p>
                                     <p class="triangle-button"><span class="glyphicon glyphicon-triangle-bottom"></span></p>
                                 </a>
