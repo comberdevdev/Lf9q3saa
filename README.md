@@ -6,7 +6,7 @@
 * Elton Almeida ✓
 * Nicolas Sampaio
 * Leonardo Mello ✓
-* Paulo Netto Gay
+* Paulo Netto
 
 ## A Estrutura
 
