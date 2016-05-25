@@ -123,5 +123,51 @@ li.menu-perfil-item{
 }
 
 .conteudo{
-	margin-top:86px;
+	margin-top:66px;
+}
+
+.galeria-imagens{
+	background-color:#d9d9d9;
+}
+
+.sub-title{
+	margin-top:15px;
+	margin-left:50px;
+	color:#999;
+}
+
+.box{
+	background-color:#ffffff;
+	margin-top:50px;
+}
+.box-title{
+	background-color:#555;
+	color:#ffffff;
+}
+.box-title-title{
+	padding:10px;
+}
+.box-content{
+	background-color:#fff;
+	padding:10px;
+}
+
+.control-label{
+	padding:5px;
+	font-weight:normal;
+	font-size:16px;
+}
+input[type="text"].form-control{
+	border-radius:0px;
+	box-shadow:none;
+	border-color:#e5e5e5;
+}
+
+footer{
+	background-color:#efefef;
+	margin-top:20px;
+}
+.footer-text{
+	padding-top:20px;
+	padding-bottom:20px;
 }

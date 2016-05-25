@@ -53,3 +53,7 @@ function perfil(){
 		$("#perfil").show();
 	}
 }
+
+$(document).ready(function(){
+	$("#inputConteudo").focus();
+});
