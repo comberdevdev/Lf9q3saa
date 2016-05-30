@@ -88,6 +88,12 @@ ul.lista-sub-itens > li.sub-item:hover{
 	padding:10px;
 }
 
+#perfil{
+	display:none;
+	z-index:1;
+	position:absolute;
+	width:1115px;
+}
 .menu-perfil{
 	background-color:#2b2f35;
 	color:#fff;
@@ -124,6 +130,7 @@ li.menu-perfil-item{
 
 .conteudo{
 	margin-top:66px;
+	margin-right:45px;
 }
 
 .galeria-imagens{
@@ -170,4 +177,36 @@ footer{
 .footer-text{
 	padding-top:20px;
 	padding-bottom:20px;
+}
+
+select.form-control{
+	border-radius:0px;
+	box-shadow:none;
+	border-color:#e5e5e5;
+}
+
+.menu-active-side { 
+ background-color: #fff;
+}
+.menu-active-side > a { 
+ color: #000 !important; 
+}
+.menu-active-side:hover { 
+ background-color: #fff !important;
+}
+.menu-active-side > a:hover { 
+ color: #000 !important; 
+}
+.menu-open-side {
+ display: block;
+}
+.menu-close-side {
+ display: none;
+}
+
+#config_google{
+	display:none;
+}
+#arquivos{
+	display:none;
 }
