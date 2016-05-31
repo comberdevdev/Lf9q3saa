@@ -69,7 +69,7 @@
                 <div id="sidebar-wrapper" style="background-color:#17181b">
                 	<ul class="lista">
                     	<li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Páginas
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Página inicial
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
@@ -85,7 +85,39 @@
                         </ul>
                         
                         <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Galeria de fotos
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Meus alojamentos
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                        </li>
+                        <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
+                            <li class="sub-item">
+                                <a href="#">Gerenciar página</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="#">Gerenciar formulários</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="#">Contatos</a>
+                            </li>
+                        </ul>
+                        
+                        <li class="item">
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;A Chácara
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                        </li>
+                        <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
+                            <li class="sub-item">
+                                <a href="#">Gerenciar página</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="#">Gerenciar formulários</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="#">Contatos</a>
+                            </li>
+                        </ul>
+                        
+                        <li class="item">
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Galeria
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_galeria" name="config_galeria" >
@@ -98,7 +130,7 @@
                         </ul>
                         
                         <li class="item">
-                        	<a href="#" class="menu-item-side <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side menu-open-side" ?>"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;BLOG
+                        	<a href="#" class="menu-item-side <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side menu-open-side" ?>"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Blog
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_blog" name="config_blog" >
@@ -110,22 +142,6 @@
                             </li>
                             <li class="sub-item">
                                 <a href="#">Contatos</a>
-                            </li>
-                        </ul>
-                        
-                        <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-stats"></span>&nbsp;&nbsp;GOOGLE
-                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
-                        </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_google" name="config_google">
-                            <li class="sub-item">
-                                <a href="#">Analytics</a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/google/seo.php">SEO</a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/google/captcha.php">CAPTCHA</a>
                             </li>
                         </ul>
                         
@@ -142,6 +158,22 @@
                             </li>
                             <li class="sub-item">
                                 <a href="#">Contatos</a>
+                            </li>
+                        </ul>
+                        
+                        <li class="item">
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-stats"></span>&nbsp;&nbsp;Google
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                        </li>
+                        <ul class="lista-sub-itens menu-close-side" id="config_google" name="config_google">
+                            <li class="sub-item">
+                                <a href="#">Analytics</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/google/seo.php">SEO</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/google/captcha.php">CAPTCHA</a>
                             </li>
                         </ul>
                         
