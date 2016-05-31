@@ -85,7 +85,7 @@
                         </ul>
                         
                         <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Meus alojamentos
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Meus alojamentos
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
@@ -101,7 +101,7 @@
                         </ul>
                         
                         <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;A Chácara
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
