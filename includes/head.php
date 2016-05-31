@@ -15,11 +15,4 @@
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/fonts/glyphicons-halflings-regular.woff">
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/fonts/glyphicons-halflings-regular.woff2">
     <link type="text/css" rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
-    
-    <!-- 
-    Plugin DataTable
-    <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dataTable/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dataTable/jquery.dataTables.min.js"></script>
-    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/dataTable/jquery.dataTables.min.css">
-    -->
 </head>
