@@ -210,3 +210,8 @@ select.form-control{
 #arquivos{
 	display:none;
 }
+
+.input-group-addon:first-child {
+	border: none;
+	border-radius:0px;
+}

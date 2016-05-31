@@ -18,4 +18,6 @@
     
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/css/jquery.dataTables.css">
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/font-awesome/css/font-awesome.min.css">
+    
+    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/icheck/skins/square/square.css">
 </head>

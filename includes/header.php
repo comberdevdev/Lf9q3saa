@@ -123,13 +123,13 @@
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_form" name="config_form" >
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/formulario/gerenciar.php">Gerenciar formulários</a>
+                                <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemGerenciar=gerenciar">Gerenciar formulários</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/formulario/novo.php">Novo formulário</a>
+                                <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemNovo=novo">Novo formulário</a>
                             </li>
                             <li class="sub-item">
-                                <a href="#">Contatos</a>
+                                <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemContato=contato">Contatos</a>
                             </li>
                         </ul>
                         
