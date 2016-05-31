@@ -14,12 +14,9 @@
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/css/style.css">
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/fonts/glyphicons-halflings-regular.woff">
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/fonts/glyphicons-halflings-regular.woff2">
-    <!-- <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css"> -->
+    <link type="text/css" rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
     
     <!-- 
-    <script src="<?= $caminhoSite ?>/plugins/tinymce/js/tinymce/tinymce.min.js"></script>
-    <script src="<?= $caminhoSite ?>/plugins/dropzone.js"></script>
-    
     Plugin DataTable
     <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dataTable/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dataTable/jquery.dataTables.min.js"></script>

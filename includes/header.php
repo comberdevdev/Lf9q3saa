@@ -74,7 +74,7 @@
                         </li>
                         
                         <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Meus alojamentos
+                        	<a href="#" class="menu-item-side <?php if($_SESSION['paginaAtual'] == 'meus-alojamentos/adicionar') echo "menu-active-side menu-open-side" ?>"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Meus alojamentos
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
@@ -82,7 +82,7 @@
                                 <a href="#">Gerenciar alojamentos</a>
                             </li>
                             <li class="sub-item">
-                                <a href="#">Adicionar novo alojamento</a>
+                                <a href="<?= $caminhoSite ?>/modulos/meus-alojamentos/index.php?pagina=adicionar">Adicionar novo alojamento</a>
                             </li>
                         </ul>
                         
