@@ -86,8 +86,8 @@
                             </li>
                         </ul>
                         
-                        <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'chacara/chacara') echo "menu-active-side" ?>">
+                        	<a href="<?= $caminhoSite ?>/modulos/chacara/index.php?gerItem=gerenciar" class="menu-item-side"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         
@@ -139,13 +139,13 @@
                         </li>
                         <ul class="lista-sub-itens menu-close-side">
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?pagina=analytics">Analytics</a>
+                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemAnalytics=analytics">Analytics</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?pagina=captcha">reCAPTCHA</a>
+                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemCaptcha=captcha">reCAPTCHA</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?pagina=seo">SEO</a>
+                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemSeo=seo">SEO</a>
                             </li>
                         </ul>
                         

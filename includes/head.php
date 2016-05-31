@@ -17,4 +17,5 @@
     <link type="text/css" rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
     
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/css/jquery.dataTables.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/font-awesome/css/font-awesome.min.css">
 </head>
