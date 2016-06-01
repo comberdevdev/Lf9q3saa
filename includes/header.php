@@ -68,8 +68,8 @@
         	<div id="wrapper">
                 <div id="sidebar-wrapper" style="background-color:#17181b">
                 	<ul class="lista">
-                    	<li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Página inicial
+                    	<li class="item <?php if($_SESSION['paginaAtual'] == 'pagina-inicial/gerenciar') echo "menu-active-side" ?>">
+                        	<a href="<?= $caminhoSite ?>/modulos/pagina-inicial/index.php?itemGerenciar=gerenciar"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Página inicial
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         
