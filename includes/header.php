@@ -73,11 +73,11 @@
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         
-                        <li class="item">
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'meus-alojamentos/alojamentos') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Meus alojamentos
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
+                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'meus-alojamentos/alojamentos') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_page" name="config_page">
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/meus-alojamentos/index.php?itemGerenciar=gerenciar">Gerenciar alojamentos</a>
                             </li>
@@ -86,16 +86,16 @@
                             </li>
                         </ul>
                         
-                        <li class="item">
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'chacara/chacara') echo "menu-active-side" ?>">
                         	<a href="<?= $caminhoSite ?>/modulos/chacara/index.php?itemGerenciar=gerenciar"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         
-                        <li class="item">
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'galeria-imagens/gerenciar') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Galeria
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_galeria" name="config_galeria" >
+                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'galeria-imagens/gerenciar') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_galeria" name="config_galeria" >
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciar=gerenciar">Gerenciar categorias</a>
                             </li>
@@ -109,25 +109,13 @@
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciarGaleria=gerenciarGaleria">Gerenciar galeria</a>
                             </li>
-                        </ul>                    
-                        <li class="item <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side" ?>">
+                        </ul>
+                                        
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'blog/gerenciar') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;BLOG
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_blog" name="config_blog" >
-                            <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side" ?>">
-                                <a href="<?= $caminhoSite ?>/modulos/blog/index.php?pagina=adicionar">Gerenciar página</a>
-                            </li>
-                            <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/formularios') echo "menu-active-side" ?>">
-                                <a href="#">Gerenciar formulários</a>
-                            </li>
-                            <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/contatos') echo "menu-active-side" ?>">
-                                <a href="#">Contatos</a>
-                        <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Blog
-                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
-                        </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_blog" name="config_blog">
+                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'blog/gerenciar') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_blog" name="config_blog">
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/blog/index.php?itemGerenciar=gerenciar">Gerenciar posts</a>
                             </li>
@@ -136,11 +124,11 @@
                             </li>
                         </ul>
                         
-                        <li class="item">
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'formulario/gerenciar') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;Formulários
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_form" name="config_form">
+                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'formulario/gerenciar') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_form" name="config_form">
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemGerenciar=gerenciar">Gerenciar formulários</a>
                             </li>
@@ -152,11 +140,11 @@
                             </li>
                         </ul>
                         
-                        <li class="item">
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'google/gerenciar') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-stats"></span>&nbsp;&nbsp;Google
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side">
+                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'google/gerenciar') echo "menu-open-side"; else echo "menu-close-side"; ?>">
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemAnalytics=analytics">Analytics</a>
                             </li>
