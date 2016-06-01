@@ -22,7 +22,12 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><img src="uploads/primeira-categoria/primeira-categoria-00.jpg" class="img-item-categoria"></td>
+                                    <td>
+                                    	<a href="uploads/primeira-categoria/primeira-categoria-00.jpg" rel="lightbox[primeira]" target="_self"><img src="uploads/primeira-categoria/primeira-categoria-00.jpg" class="img-item-categoria"></a>
+                                        <a href="uploads/primeira-categoria/primeira-categoria-01.jpg" rel="lightbox[primeira]" class="lightbox_hide_image"></a>
+                                        <a href="uploads/primeira-categoria/primeira-categoria-02.jpg" rel="lightbox[primeira]" class="lightbox_hide_image"></a>
+                                        <a href="uploads/primeira-categoria/primeira-categoria-03.png" rel="lightbox[primeira]" class="lightbox_hide_image"></a>
+                                    </td>
                                     <td>Primeira categoria teste da página de galeria de imagens</td>
                                     <td><center>01/06/2016</center></td>
                                     <td>
@@ -38,7 +43,12 @@
                                 </tr>
                                 
                                 <tr>
-                                    <td><img src="uploads/segunda-categoria/segunda-categoria-00.jpg" class="img-item-categoria"></td>
+                                    <td>
+                                    	<a href="uploads/segunda-categoria/segunda-categoria-00.jpg" rel="lightbox[segunda]" target="_self"><img src="uploads/segunda-categoria/segunda-categoria-00.jpg" class="img-item-categoria"></a>
+                                        <a href="uploads/segunda-categoria/segunda-categoria-01.jpg" rel="lightbox[segunda]" class="lightbox_hide_image"></a>
+                                        <a href="uploads/segunda-categoria/segunda-categoria-02.jpg" rel="lightbox[segunda]" class="lightbox_hide_image"></a>
+                                        <a href="uploads/segunda-categoria/segunda-categoria-03.jpg" rel="lightbox[segunda]" class="lightbox_hide_image"></a>
+                                    </td>
                                     <td>Segunda categoria teste da página de galeria de imagens</td>
                                     <td><center>01/06/2016</center></td>
                                     <td>
