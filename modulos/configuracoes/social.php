@@ -18,7 +18,7 @@
                                         <img src="../../images/social-icons/fa-ico.png" class="img-social">&nbsp;&nbsp;
                                     </div>
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control form-social"><br><br>
+                                        <input type="text" class="form-control form-social" placeholder="https://www.facebook.com/"><br><br>
                                     </div>
                                 </div>
                                 
@@ -27,7 +27,7 @@
                                         <img src="../../images/social-icons/in-ico.png" class="img-social">&nbsp;&nbsp;
                                     </div>
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control form-social"><br><br>
+                                        <input type="text" class="form-control form-social" placeholder="https://www.instagram.com/"><br><br>
                                     </div>
                                 </div>
                                 
@@ -36,7 +36,7 @@
                                         <img src="../../images/social-icons/tw-ico.png" class="img-social">&nbsp;&nbsp;
                                     </div>
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control form-social"><br><br>
+                                        <input type="text" class="form-control form-social" placeholder="https://twitter.com/"><br><br>
                                     </div>
                                 </div>
                                 
@@ -45,7 +45,7 @@
                                         <img src="../../images/social-icons/go-ico.png" class="img-social">&nbsp;&nbsp;
                                     </div>
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control form-social"><br><br>
+                                        <input type="text" class="form-control form-social" placeholder="https://plus.google.com/"><br><br>
                                     </div>
                                 </div>
                                 
@@ -54,7 +54,7 @@
                                         <img src="../../images/social-icons/yu-ico.png" class="img-social">&nbsp;&nbsp;
                                     </div>
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control form-social"><br><br>
+                                        <input type="text" class="form-control form-social" placeholder="https://www.youtube.com/"><br><br>
                                     </div>
                                 </div>
                                 
@@ -63,7 +63,7 @@
                                         <img src="../../images/social-icons/vi-ico.png" class="img-social">&nbsp;&nbsp;
                                     </div>
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control form-social"><br><br>
+                                        <input type="text" class="form-control form-social" placeholder="https://vimeo.com/"><br><br>
                                     </div>
                                 </div>
                             </div>

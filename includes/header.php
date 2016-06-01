@@ -162,7 +162,7 @@
                         </li>
                         <ul class="lista-sub-itens  <?php if($_SESSION['paginaAtual'] == 'configuracoes/geral') echo "menu-open-side"; else echo "menu-close-side"; ?>">
                             <li class="sub-item">
-                                <a href="#">Configurações gerais</a>
+                                <a href="<?= $caminhoSite ?>/modulos/configuracoes/index.php?itemGeral=geral">Configurações gerais</a>
                             </li>
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/configuracoes/index.php?itemSocial=social">Redes sociais</a>
