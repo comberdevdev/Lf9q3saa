@@ -105,15 +105,15 @@
                         </ul>
                         
                         <li class="item">
-                        	<a href="#" class="menu-item-side <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side menu-open-side" ?>"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Blog
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Blog
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_blog" name="config_blog">
                             <li class="sub-item">
-                                <a href="#">Gerenciar posts</a>
+                                <a href="<?= $caminhoSite ?>/modulos/blog/index.php?itemGerenciar=gerenciar">Gerenciar posts</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/modulos/blog/index.php?pagina=adicionar">Adicionar novo post</a>
+                                <a href="<?= $caminhoSite ?>/modulos/blog/index.php?itemAdicionar=adicionar">Adicionar novo post</a>
                             </li>
                         </ul>
                         
@@ -121,7 +121,7 @@
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;Formulários
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_form" name="config_form" >
+                        <ul class="lista-sub-itens menu-close-side" id="config_form" name="config_form">
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemGerenciar=gerenciar">Gerenciar formulários</a>
                             </li>

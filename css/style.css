@@ -215,3 +215,16 @@ select.form-control{
 	border: none;
 	border-radius:0px;
 }
+
+button[type="button"].btn.btn-default.btn-editar {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#0090ff;
+}
+button[type="button"].btn.btn-default.btn-excluir {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#fb3838;
+}
