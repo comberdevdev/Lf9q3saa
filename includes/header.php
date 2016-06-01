@@ -97,10 +97,17 @@
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_galeria" name="config_galeria" >
                             <li class="sub-item">
-                                <a href="#">Gerenciar categoria</a>
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciar=gerenciar">Gerenciar categorias</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/galeria-imagens/adicionar.php">Galeria de imagens</a>
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemAdicionar=adicionar">Adicionar categoria</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGaleria=galeria">Galeria de imagens</a>
+                            </li>
+                            <hr>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciarGaleria=gerenciarGaleria">Gerenciar galeria</a>
                             </li>
                         </ul>
                         

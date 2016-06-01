@@ -216,6 +216,7 @@ select.form-control{
 	border-radius:0px;
 }
 
+/* Botões */
 button[type="button"].btn.btn-default.btn-editar {
 	border:none;
 	border-radius:0px;
@@ -227,4 +228,10 @@ button[type="button"].btn.btn-default.btn-excluir {
 	border-radius:0px;
 	color:#ffffff;
 	background-color:#fb3838;
+}
+
+/* Imagens */
+.img-item-categoria {
+	height:70px;
+	width:120px;
 }
