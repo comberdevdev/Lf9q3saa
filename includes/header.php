@@ -86,8 +86,8 @@
                             </li>
                         </ul>
                         
-                        <li class="item <?php if($_SESSION['paginaAtual'] == 'chacara/chacara') echo "menu-active-side" ?>">
-                        	<a href="<?= $caminhoSite ?>/modulos/chacara/index.php?gerItem=gerenciar" class="menu-item-side"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
+                        <li class="item">
+                        	<a href="<?= $caminhoSite ?>/modulos/chacara/index.php?itemGerenciar=gerenciar"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         

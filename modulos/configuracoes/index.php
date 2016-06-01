@@ -3,12 +3,22 @@
 	$_SESSION["paginaAtual"] = "chacara/chacara";
 	require $caminhoFisico . '/includes/head.php';
 	require $caminhoFisico . '/includes/header.php';
-	if (!empty($_GET['itemGerenciar'])) {
-		if ($_GET['itemGerenciar'] == 'gerenciar') {
-			require 'gerenciar.php';
+	
+	if (!empty($_GET['itemGeral'])) {
+		if ($_GET['itemGeral'] == 'geral') {
+			require 'geral.php';
 		} else {
 			require 'conteudo.php';
 		}
 	}
+	
+	if (!empty($_GET['itemSocial'])) {
+		if ($_GET['itemSocial'] == 'social') {
+			require 'social.php';
+		} else {
+			require 'conteudo.php';
+		}
+	}
+	
 	require $caminhoFisico . '/includes/footer.php';
 ?>    
