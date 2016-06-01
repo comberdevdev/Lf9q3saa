@@ -156,16 +156,16 @@
                             </li>
                         </ul>
                         
-                        <li class="item">
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'configuracoes/geral') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;Configurações
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side">
+                        <ul class="lista-sub-itens  <?php if($_SESSION['paginaAtual'] == 'configuracoes/geral') echo "menu-open-side"; else echo "menu-close-side"; ?>">
                             <li class="sub-item">
                                 <a href="#">Configurações gerais</a>
                             </li>
                             <li class="sub-item">
-                                <a href="#">Redes sociais</a>
+                                <a href="<?= $caminhoSite ?>/modulos/configuracoes/index.php?itemSocial=social">Redes sociais</a>
                             </li>
                         </ul>
                     </ul>

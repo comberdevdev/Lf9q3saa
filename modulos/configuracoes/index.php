@@ -1,6 +1,6 @@
 <?php
 	require '../../includes/config.php';
-	$_SESSION["paginaAtual"] = "chacara/chacara";
+	$_SESSION["paginaAtual"] = "configuracoes/geral";
 	require $caminhoFisico . '/includes/head.php';
 	require $caminhoFisico . '/includes/header.php';
 	

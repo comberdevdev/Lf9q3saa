@@ -216,6 +216,11 @@ select.form-control{
 	border-radius:0px;
 }
 
+/* Input */
+input[type="text"].form-control.form-social {
+	margin-top:5px;
+}
+
 /* Botões */
 button[type="button"].btn.btn-default.btn-editar {
 	border:none;
@@ -240,4 +245,7 @@ button[type="button"].btn.btn-default.btn-arquivo {
 .img-item-categoria {
 	height:70px;
 	width:120px;
+}
+.img-social {
+	height:40px;
 }
