@@ -15,16 +15,54 @@
                             	<tr>
                                     <th>Titulo</th>
                                     <th>Página</th>
-                                    <th>Editar</th>
-                                    <th>Formulário</th>
+                                    <th>&nbsp;</th>
+                                    <th>&nbsp;</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
-                                    <td>TESTE</td>
+                                    <td>Contato-teste</td>
+                                    <td>Fale Conosco</td>
+                                    <td>
+                                    	<center>
+                                        	<button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button>
+                                        </center>
+                                    </td>
+                                    <td>
+                                    	<center>
+                                        	<button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button>
+                                        </center>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Formulario-teste</td>
+                                    <td>Página com Formulário</td>
+                                    <td>
+                                    	<center>
+                                        	<button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button>
+                                        </center>
+                                    </td>
+                                    <td>
+                                    	<center>
+                                        	<button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button>
+                                        </center>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Mais-um-formulario-qualquer-teste</td>
+                                    <td>Página Teste com Formulário</td>
+                                    <td>
+                                    	<center>
+                                        	<button type="button" class="btn btn-default btn-editar"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Editar</button>
+                                        </center>
+                                    </td>
+                                    <td>
+                                    	<center>
+                                        	<button type="button" class="btn btn-default btn-excluir"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Excluir</button>
+                                        </center>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
