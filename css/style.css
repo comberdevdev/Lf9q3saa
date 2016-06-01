@@ -133,7 +133,7 @@ li.menu-perfil-item{
 	margin-right:45px;
 }
 
-.galeria-imagens{
+.content{
 	background-color:#d9d9d9;
 }
 
@@ -209,4 +209,35 @@ select.form-control{
 }
 #arquivos{
 	display:none;
+}
+
+.input-group-addon:first-child {
+	border: none;
+	border-radius:0px;
+}
+
+/* Botões */
+button[type="button"].btn.btn-default.btn-editar {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#0090ff;
+}
+button[type="button"].btn.btn-default.btn-excluir {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#fb3838;
+}
+button[type="button"].btn.btn-default.btn-arquivo {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#fb3838;
+}
+
+/* Imagens */
+.img-item-categoria {
+	height:70px;
+	width:120px;
 }

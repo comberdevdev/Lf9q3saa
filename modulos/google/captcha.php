@@ -1,15 +1,7 @@
-<?php
-	require '../includes/config.php';
-	require $caminhoFisico . '../includes/head.php';
-	require $caminhoFisico . '../includes/header.php';
-	require $caminhoFisico.'../includes/footer.php';
-?>
-
 <div class="col-md-9 pull-right conteudo">
-	<div class="fluid galeria-imagens">
-    	<!-- NAVBAR -->
-        <section>
-            <h1><span class="glyphicon glyphicon-picture"></span>&nbsp;reCAPTCHA</h1>
+	<div class="fluid content">
+    	<section>
+            <h1><span class="glyphicon glyphicon-lock"></span>&nbsp;reCAPTCHA</h1>
             <h4 class="sub-title">Adicionando reCAPTCHA para o seu site.</h4>
             
             <div class="box">

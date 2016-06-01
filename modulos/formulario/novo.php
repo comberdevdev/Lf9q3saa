@@ -1,14 +1,6 @@
-<?php
-	require '../includes/config.php';
-	require $caminhoFisico . '/includes/head.php';
-	require $caminhoFisico . '/includes/header.php';
-	require $caminhoFisico.'/includes/footer.php';
-?>
-
 <div class="col-md-9 pull-right conteudo">
-	<div class="fluid galeria-imagens">
-    	<!-- NAVBAR -->
-        <section>
+	<div class="fluid content">
+    	<section>
             <h1><span class="glyphicon glyphicon-comment"></span>&nbsp;Novo Formulário</h1>
             <h4 class="sub-title">Adicione um novo formulário.</h4>
             
@@ -76,6 +68,42 @@
                                     <label><input name="check" id="check" type="checkbox" value=""> Obrigatório</label><br>
                                     <label><input name="check" id="check" type="checkbox" value=""> Obrigatório</label><br>
                                 </div>
+                            </div>
+                        </div><br>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="box">
+            	<div class="box-title">
+                	<h3 class="box-title-title"><span class="glyphicon glyphicon-bell"></span>&nbsp;&nbsp;Notificações</h3>
+                </div>
+                <div class="box-content">
+                	<form>
+                    	<div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Para</label>
+                            <div class="col-sm-10">
+                            	<div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1">To:</span>
+                                    <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div><br>
+                        
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Cópia</label>
+                            <div class="col-sm-10">
+                            	<div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1">Cc:</span>
+                                    <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div><br>
+                        
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Assunto</label>
+                            <div class="col-sm-10">
+                            	<input type="text" class="form-control">
                             </div>
                         </div><br>
                     </form>

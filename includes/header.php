@@ -69,34 +69,47 @@
                 <div id="sidebar-wrapper" style="background-color:#17181b">
                 	<ul class="lista">
                     	<li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Páginas
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Página inicial
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                        </li>
+                        
+                        <li class="item">
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;Meus alojamentos
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_page" name="config_page">
                             <li class="sub-item">
-                                <a href="#">Gerenciar página</a>
+                                <a href="<?= $caminhoSite ?>/modulos/meus-alojamentos/index.php?itemGerenciar=gerenciar">Gerenciar alojamentos</a>
                             </li>
                             <li class="sub-item">
-                                <a href="#">Gerenciar formulários</a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="#">Contatos</a>
+                                <a href="<?= $caminhoSite ?>/modulos/meus-alojamentos/index.php?itemAdicionar=adicionar">Adicionar novo alojamento</a>
                             </li>
                         </ul>
                         
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'chacara/chacara') echo "menu-active-side" ?>">
+                        	<a href="<?= $caminhoSite ?>/modulos/chacara/index.php?gerItem=gerenciar" class="menu-item-side"><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;A Chácara
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                        </li>
+                        
                         <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Galeria de fotos
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Galeria
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
                         <ul class="lista-sub-itens menu-close-side" id="config_galeria" name="config_galeria" >
                             <li class="sub-item">
-                                <a href="#">Gerenciar Imagens</a>
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciar=gerenciar">Gerenciar categorias</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/galeria-imagens/adicionar.php">Adicionar Imagem</a>
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemAdicionar=adicionar">Adicionar categoria</a>
                             </li>
-                        </ul>
-                        
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGaleria=galeria">Galeria de imagens</a>
+                            </li>
+                            <hr>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciarGaleria=gerenciarGaleria">Gerenciar galeria</a>
+                            </li>
+                        </ul>                    
                         <li class="item <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side" ?>">
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;BLOG
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
@@ -110,22 +123,16 @@
                             </li>
                             <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/contatos') echo "menu-active-side" ?>">
                                 <a href="#">Contatos</a>
-                            </li>
-                        </ul>
-                        
                         <li class="item">
-                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-stats"></span>&nbsp;&nbsp;GOOGLE
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Blog
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_google" name="config_google">
+                        <ul class="lista-sub-itens menu-close-side" id="config_blog" name="config_blog">
                             <li class="sub-item">
-                                <a href="#">Analytics</a>
+                                <a href="<?= $caminhoSite ?>/modulos/blog/index.php?itemGerenciar=gerenciar">Gerenciar posts</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/google/seo.php">SEO</a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/google/captcha.php">CAPTCHA</a>
+                                <a href="<?= $caminhoSite ?>/modulos/blog/index.php?itemAdicionar=adicionar">Adicionar novo post</a>
                             </li>
                         </ul>
                         
@@ -133,15 +140,31 @@
                         	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;Formulários
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_form" name="config_form" >
+                        <ul class="lista-sub-itens menu-close-side" id="config_form" name="config_form">
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/formulario/gerenciar.php">Gerenciar formulários</a>
+                                <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemGerenciar=gerenciar">Gerenciar formulários</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/formulario/novo.php">Novo formulário</a>
+                                <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemNovo=novo">Novo formulário</a>
                             </li>
                             <li class="sub-item">
-                                <a href="#">Contatos</a>
+                                <a href="<?= $caminhoSite ?>/modulos/formulario/index.php?itemContato=contato">Contatos</a>
+                            </li>
+                        </ul>
+                        
+                        <li class="item">
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-stats"></span>&nbsp;&nbsp;Google
+                            <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
+                        </li>
+                        <ul class="lista-sub-itens menu-close-side">
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemAnalytics=analytics">Analytics</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemCaptcha=captcha">reCAPTCHA</a>
+                            </li>
+                            <li class="sub-item">
+                                <a href="<?= $caminhoSite ?>/modulos/google/index.php?itemSeo=seo">SEO</a>
                             </li>
                         </ul>
                         
@@ -151,13 +174,10 @@
                         </li>
                         <ul class="lista-sub-itens menu-close-side">
                             <li class="sub-item">
-                                <a href="#">Gerenciar página</a>
+                                <a href="#">Configurações gerais</a>
                             </li>
                             <li class="sub-item">
-                                <a href="#">Gerenciar formulários</a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="#">Contatos</a>
+                                <a href="#">Redes sociais</a>
                             </li>
                         </ul>
                     </ul>
