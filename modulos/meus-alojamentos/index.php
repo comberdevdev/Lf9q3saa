@@ -3,16 +3,16 @@
 	$_SESSION["paginaAtual"] = "meus-alojamentos/alojamentos";
 	require $caminhoFisico . '/includes/head.php';
 	require $caminhoFisico . '/includes/header.php';
-	if (!empty($_GET['novoItem'])) {
-		if ($_GET['novoItem'] == 'adicionar') {
+	if (!empty($_GET['itemAdicionar'])) {
+		if ($_GET['itemAdicionar'] == 'adicionar') {
 			require 'adicionar.php';
 		} else {
 			require 'conteudo.php';
 		}
 	}
 	
-	if (!empty($_GET['gerItem'])) {
-		if ($_GET['gerItem'] == 'gerenciar') {
+	if (!empty($_GET['itemGerenciar'])) {
+		if ($_GET['itemGerenciar'] == 'gerenciar') {
 			require 'gerenciar.php';
 		} else {
 			require 'conteudo.php';
