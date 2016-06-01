@@ -5,12 +5,18 @@
     <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dropzone.js"></script>
 </body>
 
+<!-- DataTable jQuery + DataTable JavaScript Plugin -->
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/js/jquery.js"></script>
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/js/jquery.dataTables.min.js"></script>
 
+<!-- iCheck JavaScript Plugin -->
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/icheck/icheck.min.js"></script>
 
+<!-- TinyMCE JavaScript Plugin -->
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/tinymce/js/tinymce/tinymce.min.js"></script>
+
+<!-- LightBox JavaScript Plugin -->
+<script src="<?= $caminhoSite ?>/plugins/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 
 <script>
 	$(document).ready(function(){

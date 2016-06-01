@@ -16,8 +16,15 @@
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/fonts/glyphicons-halflings-regular.woff2">
     <link type="text/css" rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
     
+    <!-- jQuery DataTable Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/css/jquery.dataTables.css">
+    
+    <!-- Font Awesome Icons Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/font-awesome/css/font-awesome.min.css">
     
+    <!-- iCheck Square Checkbox Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/icheck/skins/square/square.css">
+    
+    <!-- LightBox Style Sheet -->
+    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/lightbox2-master/dist/css/lightbox.min.css">
 </head>
