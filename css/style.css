@@ -240,6 +240,18 @@ button[type="button"].btn.btn-default.btn-arquivo {
 	color:#ffffff;
 	background-color:#fb3838;
 }
+button[type="button"].btn.btn-default.btn-dados {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#0090ff;
+}
+button[type="button"].btn.btn-default.btn-modal-close {
+	border:none;
+	border-radius:0px;
+	color:#ffffff;
+	background-color:#fb3838;
+}
 
 /* Imagens */
 .img-item-categoria {
@@ -248,4 +260,12 @@ button[type="button"].btn.btn-default.btn-arquivo {
 }
 .img-social {
 	height:40px;
+}
+
+/* Modal */
+.modal-content {
+	border-radius:0px;
+}
+.modal-header {
+	background-color:#EFEFEF;
 }
