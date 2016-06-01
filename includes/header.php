@@ -97,18 +97,18 @@
                             </li>
                         </ul>
                         
-                        <li class="item">
-                        	<a href="#" class="menu-item-side <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side menu-open-side" ?>"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;BLOG
+                        <li class="item <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side" ?>">
+                        	<a href="#" class="menu-item-side"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;BLOG
                             <span class="glyphicon glyphicon-menu-right pull-right"></span></a>
                         </li>
-                        <ul class="lista-sub-itens menu-close-side" id="config_blog" name="config_blog" >
-                            <li class="sub-item">
+                        <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_blog" name="config_blog" >
+                            <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/adicionar') echo "menu-active-side" ?>">
                                 <a href="<?= $caminhoSite ?>/modulos/blog/index.php?pagina=adicionar">Gerenciar página</a>
                             </li>
-                            <li class="sub-item">
+                            <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/formularios') echo "menu-active-side" ?>">
                                 <a href="#">Gerenciar formulários</a>
                             </li>
-                            <li class="sub-item">
+                            <li class="sub-item <?php if($_SESSION['paginaAtual'] == 'blog/contatos') echo "menu-active-side" ?>">
                                 <a href="#">Contatos</a>
                             </li>
                         </ul>
