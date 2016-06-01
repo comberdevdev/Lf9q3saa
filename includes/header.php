@@ -97,15 +97,14 @@
                         </li>
                         <ul class="lista-sub-itens <?php if($_SESSION['paginaAtual'] == 'galeria-imagens/gerenciar') echo "menu-open-side"; else echo "menu-close-side"; ?>" id="config_galeria" name="config_galeria" >
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciar=gerenciar">Gerenciar categorias</a>
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciar=gerenciar">Galeria de imagens</a>
                             </li>
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemAdicionar=adicionar">Adicionar categoria</a>
                             </li>
                             <li class="sub-item">
-                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGaleria=galeria">Galeria de imagens</a>
+                                <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGaleria=galeria">Adicionar Imagens</a>
                             </li>
-                            <hr>
                             <li class="sub-item">
                                 <a href="<?= $caminhoSite ?>/modulos/galeria-imagens/index.php?itemGerenciarGaleria=gerenciarGaleria">Gerenciar galeria</a>
                             </li>

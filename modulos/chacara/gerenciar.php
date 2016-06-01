@@ -6,6 +6,29 @@
             
             <div class="box">
             	<div class="box-title">
+                	<h3 class="box-title-title"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Banners</h3>
+                </div>
+                <div class="box-content">
+                	<form>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Banner primário</label>
+                            <div class="col-sm-10">
+                            	<input id="input-1a" type="file" class="file" data-show-preview="false">
+                            </div>
+                        </div><br>
+                        
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Banner secundário</label>
+                            <div class="col-sm-10">
+                            	<input id="input-1a" type="file" class="file" data-show-preview="false">
+                            </div>
+                        </div><br>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="box">
+            	<div class="box-title">
                 	<h3 class="box-title-title"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Box</h3>
                 </div>
                 <div class="box-content">
@@ -35,6 +58,29 @@
                             <label class="col-sm-2 control-label" align="right">Texto 2</label>
                             <div class="col-sm-10">
                             	<textarea name="inputConteudo" type="text" id="inputConteudo" class="form-control wmd-container" cols="10" rows="10"></textarea>
+                            </div>
+                        </div><br>
+                        
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Cor de fundo</label>
+                            <div class="col-sm-10">
+                            	<input type="color" class="form-control">
+                            </div>
+                        </div><br>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="box">
+            	<div class="box-title">
+                	<h3 class="box-title-title"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Banner inferior</h3>
+                </div>
+                <div class="box-content">
+                	<form>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Selecione a imagem</label>
+                            <div class="col-sm-10">
+                            	<input id="input-1a" type="file" class="file" data-show-preview="false">
                             </div>
                         </div><br>
                         
@@ -316,6 +362,20 @@
                                         <option value="icon-stethoscope">icon-stethoscope</option>
                                         <option value="icon-user-md">icon-user-md</option>
                                 </select>
+                            </div>
+                        </div><br>
+                        
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Título</label>
+                            <div class="col-sm-10">
+                            	<input type="text" class="form-control">
+                            </div>
+                        </div><br>
+                        
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Valor</label>
+                            <div class="col-sm-10">
+                            	<input type="number" class="form-control form-number">
                             </div>
                         </div><br>
                     </form>

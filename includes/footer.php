@@ -5,12 +5,10 @@
     <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dropzone.js"></script>
 </body>
 
+<!-- Bootstrap File input JavaScript + Plugins -->
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js"></script>
-
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/sortable.min.js"></script>
-
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/purify.min.js"></script>
-
 <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/fileinput.min.js"></script>
 
 <!-- LightBox JavaScript Plugin -->

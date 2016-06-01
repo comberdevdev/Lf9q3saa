@@ -16,6 +16,7 @@
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/fonts/glyphicons-halflings-regular.woff2">
     <link type="text/css" rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
     
+    <!-- Bootstrap File input Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/css/fileinput.min.css">
     
     <!-- jQuery DataTable Style Sheet -->

@@ -1,8 +1,8 @@
 <div class="col-md-9 pull-right conteudo">
 	<div class="fluid content">
     	<section>
-            <h1><span class="glyphicon glyphicon-th-list"></span>&nbsp;Gerenciar Categorias</h1>
-            <h4 class="sub-title">Gerencie as categorias da Galeria de Imagens.</h4>
+            <h1><span class="glyphicon glyphicon-th-list"></span>&nbsp;Gerenciar galeria</h1>
+            <h4 class="sub-title">Gerencie a Galeria de Imagens.</h4>
             
             <div class="box">
             	<div class="box-title">

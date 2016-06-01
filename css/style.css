@@ -220,6 +220,11 @@ select.form-control{
 input[type="text"].form-control.form-social {
 	margin-top:5px;
 }
+input[type="number"].form-control.form-number {
+	border-radius:0px;
+	box-shadow:none;
+	border-color:#e5e5e5;
+}
 
 /* Botões */
 button[type="button"].btn.btn-default.btn-editar {

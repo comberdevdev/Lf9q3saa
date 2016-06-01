@@ -9,7 +9,14 @@
                 	<h3 class="box-title-title"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Banner superior</h3>
                 </div>
                 <div class="box-content">
-                	<form action="#" class="dropzone" id="my-awesome-dropzone" multifile></form>
+                	<form>
+                        <div class="control-group row">
+                            <label class="col-sm-2 control-label" align="right">Selecione a imagem</label>
+                            <div class="col-sm-10">
+                            	<input id="input-1a" type="file" class="file" data-show-preview="false">
+                            </div>
+                        </div><br>
+                    </form>
                 </div>
             </div>
             

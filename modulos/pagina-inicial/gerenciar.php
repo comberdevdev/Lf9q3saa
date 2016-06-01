@@ -38,6 +38,13 @@
                             </div>
                         </div><br>
                     </form>
+                    
+                    <div class="control-group row">
+                        <label class="col-sm-2 control-label" align="right">Imagens</label>
+                        <div class="col-sm-10">
+                            <form action="#" class="dropzone" id="my-awesome-dropzone" multifile></form>
+                        </div>
+                    </div><br>
                 </div>
             </div>
             
@@ -56,9 +63,9 @@
                     </form>
                     
                     <div class="control-group row">
-                        <label class="col-sm-2 control-label" align="right">Imagem de fundo</label>
+                        <label class="col-sm-2 control-label" align="right">Selecione a imagem</label>
                         <div class="col-sm-10">
-                            <form action="#" class="dropzone" id="my-awesome-dropzone" multifile></form>
+                            <input id="input-1a" type="file" class="file" data-show-preview="false">
                         </div>
                     </div><br>
                 </div>
