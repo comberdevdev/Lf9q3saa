@@ -54,6 +54,10 @@
 				{title: 'Table row 1', selector: 'tr', classes: 'tablerow1'}
 			]
 		});
+		
+		$('#myArquivo').on('shown.bs.modal', function () {
+		  $('#myInput').focus()
+		})
 	});
 </script>
 
