@@ -48,6 +48,8 @@
                 	<h3 class="box-title-title"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Adicionar uma imagem ao Post</h3>
                 </div>
                 <div class="box-content">
+                	<label class="control-label">Select File</label>
+                    <input id="input-1a" type="file" class="file" data-show-preview="false">
                 	<form action="#" class="dropzone" id="my-awesome-dropzone" multifile></form>
                 </div>
             </div>
