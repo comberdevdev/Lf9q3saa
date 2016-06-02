@@ -49,12 +49,10 @@
                     </div>
                     
                     <div class="collapse navbar-collapse collapse">
-                        <ul class="nav navbar-nav pull-right" style="margin-right:-9px;">
+                        <ul class="nav navbar-nav pull-right">
                             <li>
                             	<a href="#" onClick="perfil()">
-                                    <img src="<?= $caminhoSite ?>/images/logo/logo-toggle.png" style="height:35px;">
-                                    <p class="logo-name">ComberWeb</p>
-                                    <p class="triangle-button"><span class="glyphicon glyphicon-triangle-bottom"></span></p>
+                                    <img src="<?= $caminhoSite ?>/images/logo/logo-empresa.png" class="img-circle">
                                 </a>
                             </li>
                         </ul>
