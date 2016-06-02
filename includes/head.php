@@ -22,12 +22,6 @@
     <!-- jQuery DataTable Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/css/jquery.dataTables.css">
     
-    <!-- jQuery DataTable Extensions Style Sheet -->
-    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/extensions/Buttons/css/buttons.dataTables.min.css">
-    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/extensions/Select/css/select.dataTables.min.css">
-    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/extensions/RowReorder/css/rowReorder.dataTables.min.css">
-    <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/extensions/Editor/css/editor.dataTables.min.css">
-    
     <!-- Font Awesome Icons Style Sheet -->
     <link type="text/css" rel="stylesheet" media="screen" href="<?= $caminhoSite ?>/plugins/font-awesome/css/font-awesome.min.css">
     

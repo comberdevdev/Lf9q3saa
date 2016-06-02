@@ -46,11 +46,12 @@
                         </div>
                     </div><br>
                 </div>
-            </div>
+            </div><br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             
             <div class="box">
             	<div class="box-title">
-                	<h3 class="box-title-title"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Banner logo</h3>
+                	<h3 class="box-title-title"><span class="glyphicon glyphicon-picture"></span>&nbsp;&nbsp;Banner principal</h3>
                 </div>
                 <div class="box-content">
                 	<form>
@@ -69,7 +70,8 @@
                         </div>
                     </div><br>
                 </div>
-            </div>
+            </div><br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             
             <div class="box">
             	<div class="box-title">
@@ -86,6 +88,8 @@
                     </form>
                 </div>
             </div>
+            <br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
         </section>
         
         <section>
