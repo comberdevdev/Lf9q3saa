@@ -25,7 +25,8 @@
                         </div><br>
                     </form>
                 </div>
-            </div>
+            </div><br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             
             <div class="box">
             	<div class="box-title">
@@ -69,7 +70,8 @@
                         </div><br>
                     </form>
                 </div>
-            </div>
+            </div><br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             
             <div class="box">
             	<div class="box-title">
@@ -92,7 +94,8 @@
                         </div><br>
                     </form>
                 </div>
-            </div>
+            </div><br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
             
             <div class="box">
             	<div class="box-title">
@@ -380,7 +383,8 @@
                         </div><br>
                     </form>
                 </div>
-            </div>
+            </div><br>
+            <button type="button" class="btn btn-lg btn-default btn-atualizar"><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Salvar</button>
         </section>
         
         <section>
