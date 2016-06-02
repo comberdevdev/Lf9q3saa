@@ -11,10 +11,6 @@
 	margin-top:10px;
 }
 
-.logo-img{
-	margin-top:4px;
-}
-
 .logo-font{
 	color:#ffffff;
 	font-size:18px;
@@ -265,6 +261,9 @@ button[type="button"].btn.btn-default.btn-modal-close {
 }
 
 /* Imagens */
+.logo-cms-img{
+	margin-top:-5px;
+}
 .img-item-categoria {
 	height:70px;
 	width:120px;

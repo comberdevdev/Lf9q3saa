@@ -43,8 +43,7 @@
                     <div class="navbar-header navbar-cabecalho">
                     	<a href="index.php">
                         	<div class="logo">
-                                <img src="<?= $caminhoSite ?>/images/logo/sprite.png" class="img-responsive pull-left logo-img">
-                                <p class="logo-font">CMS</p>
+                                <img src="<?= $caminhoSite ?>/images/logo/logo-peppers.png" class="img-responsive pull-left logo-cms-img">
                             </div>
                         </a>
                     </div>
