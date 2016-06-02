@@ -23,3 +23,11 @@ function show(){
 function hide(){
 	$("#arquivos").hide();
 }
+
+function perfil(){
+	if($("#perfil").is(':visible')){
+		$("#perfil").hide();
+	}else{
+		$("#perfil").show();
+	}
+}

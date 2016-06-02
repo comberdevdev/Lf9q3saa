@@ -1,43 +1,6 @@
 <body style="background-color:#d9d9d9">
 	<div class="fluid">
-    	<!-- NAVBAR -->
-        <section>
-            <nav class="navbar navbar-fixed-top" role="navigation">
-                <div class="fluid">
-                    <div class="navbar-header navbar-cabecalho">
-                    	<a href="index.php">
-                        	<div class="logo">
-                                <img src="<?= $caminhoSite ?>/images/logo/sprite.png" class="img-responsive pull-left logo-img">
-                                <font class="logo-font">CMS</font>
-                            </div>
-                        </a>
-                        
-                        <button type="button" class="navbar-toggle first-button-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                            <span class="sr-only" style="background-color:#FFFFFF;">Toggle navigation</span>
-                            <span class="icon-bar" style="background-color:#FFFFFF;"></span>
-                            <span class="icon-bar" style="background-color:#FFFFFF;"></span>
-                            <span class="icon-bar" style="background-color:#FFFFFF;"></span>				
-                        </button>
-                        
-                        <button type="button" class="navbar-toggle second-button-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <img src="<?= $caminhoSite ?>/images/logo/logo-toggle.png" style="height:35px;">
-                            <span class="glyphicon glyphicon-triangle-bottom" style="color:#fff"></span>
-                        </button>
-                	</div>
-                    
-                    <div class="collapse navbar-collapse navbar-style" id="bs-example-navbar-collapse-2" align="center">
-                        <ul class="nav navbar-nav">
-                            <li><a href="brafer.php" style="padding-top:15px;"><strong>BRAFER</strong></a></li>
-                            <li style="margin-top:-15px;"><a href="produtosservicos.php"><strong>PRODUTOS/SERVIÇOS</strong></a></li>
-                            <li style="margin-top:-15px;"><a href="estruturasmetalicas.php"><strong>ESTRUTURAS METÁLICAS</strong></a></li>
-                            <li style="margin-top:-15px;"><a href="contrato.php"><strong>TRABALHE CONOSCO</strong></a></li>
-                            <li style="margin-top:-15px;"><a href="noticias.php"><strong>NOTÍCIAS</strong></a></li>
-                            <li style="margin-top:-15px;"><a href="contato.php" style="padding-bottom:15px;"><strong>CONTATO</strong></a></li>
-                        </ul>
-                    </div>
-            	</div>
-            </nav>
-            
+    	<section>
             <nav class="navbar navbar-fixed-top collapse navbar-collapse" role="navigation">
                 <div class="fluid">
                     <div class="navbar-header navbar-cabecalho">
@@ -169,7 +132,7 @@
                 
                 <div id="page-content-wrapper" name="page-content-wrapper">
                 	<div id="perfil" name="perfil">
-                    	<div class="col-md-12">
+                    	<div class="col-md-12 item-perfil">
                             <div class="row">
                                 <div class="col-md-3 menu-perfil pull-right">
                                     <p style="margin-top:20px; margin-left:20px;"><strong>Usuário</strong>: teste@teste.com</p>

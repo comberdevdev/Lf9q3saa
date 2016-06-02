@@ -206,6 +206,10 @@ select.form-control{
 	border-radius:0px;
 }
 
+.item-perfil {
+	margin-left:23px;
+}
+
 /* Input */
 input[type="text"].form-control.form-social {
 	margin-top:5px;
