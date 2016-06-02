@@ -45,7 +45,7 @@
 		tinymce.init({
 			selector: "textarea#inputConteudo",
 			theme: "modern",
-			width: 830,
+			width: '100%',
 			height: 300,
 			plugins: ["advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker", "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking", "save table contextmenu directionality emoticons template paste textcolor"],
 			content_css: "<?= $caminhoSite ?>/plugins/tinymce/content.min.css",

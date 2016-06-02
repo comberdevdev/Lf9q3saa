@@ -277,3 +277,24 @@ button[type="button"].btn.btn-default.btn-modal-close {
 .modal-header {
 	background-color:#EFEFEF;
 }
+
+.perfil-lateral {
+	position:absolute;
+	top:6.9%;
+	right:1%;
+	height:200px;
+	background-color:#fff;
+	z-index:99999;
+}
+
+#content-perfil {
+	position:relative;
+	width:100%;
+	padding:0px;
+}
+
+#usuarioLogado {	
+	height:30px;
+	background-color:#2B2F35;
+	color:#fff;
+}
