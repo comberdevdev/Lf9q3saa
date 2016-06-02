@@ -25,9 +25,9 @@ function hide(){
 }
 
 function perfil(){
-	if($("#perfil").is(':visible')){
-		$("#perfil").hide();
+	if($(".perfil-lateral").is(':visible')){
+		$(".perfil-lateral").hide();
 	}else{
-		$("#perfil").show();
+		$(".perfil-lateral").show();
 	}
 }

@@ -132,25 +132,25 @@
                 
                 <div class="perfil-lateral">
                 	<div id="content-perfil">
-                    	<div id="usuarioLogado">
-                        	<h5><strong>Usuário</strong>: teste@teste.com</h5>
-                        </div>
-						                        	
-                        <ul class="list-unstyled">
-                             <li class="menu-perfil-item">
-                                            <a href="#"><p class="perfil-item-primario"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;Configurações</p></a>
-                                        </li>
-                                        <li class="menu-perfil-item" style="margin-top:-10px;">
-                                            <a href="<?= $caminhoSite ?>/modulos/perfil/index.php?itemEditar=editar"><p class="perfil-item-primario"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Editar Perfil</p></a>
-                                        </li>
-                                        <hr class="menu-perfil-divisor">
-                                        <li class="menu-perfil-item" style="margin-bottom:-10px; margin-top:15px;">
-                                            <a href="#"><p class="perfil-item-primario"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;Sair</p></a>
-                                        </li>
-                        </ul>
+                       <div id="usuarioLogado">
+                           <h5><strong>Usuário</strong>: teste@teste.com</h5>
+                       </div>
+                       
+                       <ul class="list-unstyled">
+                           <li class="menu-perfil-item">
+                            <a href="#"><p class="perfil-item-primario"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;Configurações</p></a>
+                        </li>
+                        <li class="menu-perfil-item" style="margin-top:-10px;">
+                            <a href="<?= $caminhoSite ?>/modulos/perfil/index.php?itemEditar=editar"><p class="perfil-item-primario"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Editar Perfil</p></a>
+                        </li>
+                        <hr class="menu-perfil-divisor">
+                        <li class="menu-perfil-item" style="margin-bottom:-10px; margin-top:15px;">
+                            <a href="#"><p class="perfil-item-primario"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;Sair</p></a>
+                        </li>
+                    </ul>
                     
-                    </div>
                 </div>
+            </div>
                 
                 <div id="page-content-wrapper" name="page-content-wrapper">
                 	<div id="perfil" name="perfil">
