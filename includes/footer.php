@@ -1,28 +1,28 @@
 </div>
-	<script type="text/javascript" src="<?= $caminhoSite ?>/js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="<?= $caminhoSite ?>/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="<?= $caminhoSite ?>/js/functions.js"></script>
-    <script type="text/javascript" src="<?= $caminhoSite ?>/plugins/dropzone.js"></script>
+	<script type="text/javascript" src="<?= caminhoSite ?>/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="<?= caminhoSite ?>/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?= caminhoSite ?>/js/functions.js"></script>
+    <script type="text/javascript" src="<?= caminhoSite ?>/plugins/dropzone.js"></script>
 </body>
 
 <!-- Bootstrap File input JavaScript + Plugins -->
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js"></script>
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/sortable.min.js"></script>
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/purify.min.js"></script>
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/bootstrap-fileinput/js/fileinput.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/sortable.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/bootstrap-fileinput/js/plugins/purify.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/bootstrap-fileinput/js/fileinput.min.js"></script>
 
 <!-- LightBox JavaScript Plugin -->
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 
 <!-- DataTable jQuery + DataTable JavaScript Plugin -->
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/js/jquery.js"></script>
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/DataTables-1.10.12/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/DataTables-1.10.12/media/js/jquery.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/DataTables-1.10.12/media/js/jquery.dataTables.min.js"></script>
 
 <!-- iCheck JavaScript Plugin -->
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/icheck/icheck.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/icheck/icheck.min.js"></script>
 
 <!-- TinyMCE JavaScript Plugin -->
-<script type="text/javascript" src="<?= $caminhoSite ?>/plugins/tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="<?= caminhoSite ?>/plugins/tinymce/js/tinymce/tinymce.min.js"></script>
 
 <script>
 	$(document).ready(function(){
